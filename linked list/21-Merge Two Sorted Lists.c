@@ -9,7 +9,6 @@
  * };
  */
 
-
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     if(l1==NULL)
         return l2;
@@ -26,4 +25,3 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
         return l2;
     }
 }
-
